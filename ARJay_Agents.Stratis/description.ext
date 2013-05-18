@@ -1,0 +1,26 @@
+/*
+	File: description.ext
+	Author: ARJay
+	Description: Main config
+*/
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 8;
+};
+
+dev = "ARJay";
+author = "ARJAY";
+onLoadName = "ARJay Agents";
+onLoadMission = "Test mission for the ARJay agent system";
+loadScreen = "load.paa";
+
+disabledAI = 1;
+respawn = "BASE";
+respawnDelay = 15;
+respawnDialog = 1;
+
+// arjay config
+#include "arjay_config.hpp"
