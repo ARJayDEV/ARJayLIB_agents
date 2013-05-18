@@ -15,15 +15,13 @@ class Mission
 		"A3_Structures_F_Civ_Market",
 		"A3_Characters_F_OPFOR",
 		"A3_Structures_F_Walls",
-		"A3_Static_F_Mk6",
-		"A3_Air_F_MH9"
+		"A3_Static_F_Mk6"
 	};
 	addOnsAuto[]=
 	{
 		"A3_Characters_F_BLUFOR",
 		"A3_Air_F_Ka60",
 		"A3_Static_F_Mk6",
-		"A3_Air_F_MH9",
 		"a3_map_stratis"
 	};
 	randomSeed=11943573;
@@ -136,7 +134,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=3;
+		items=2;
 		class Item0
 		{
 			position[]={2996.4241,171.30325,1874.2778};
@@ -151,14 +149,6 @@ class Mission
 			id=9;
 			side="EMPTY";
 			vehicle="O_Mk6";
-			skill=0.60000002;
-		};
-		class Item2
-		{
-			position[]={2990.2446,171.42508,1852.3364};
-			id=10;
-			side="EMPTY";
-			vehicle="B_AH9_F";
 			skill=0.60000002;
 		};
 	};
